@@ -1,0 +1,8 @@
+name: "omtegu"
+displayName: "Omtegu's Mod"
+author: Omtegu
+description: "Omtegu's Mod"
+version: "1.0"
+minGameVersion: "149"
+dependencies: [ ]
+hidden: false
