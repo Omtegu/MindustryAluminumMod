@@ -1,0 +1,13 @@
+type: PowerNode
+name: Power Bridge
+size: 1
+laserRange: 5
+maxNodes: 5
+health: 35
+category: power
+research: generator
+squareSprite: false
+requirements: [
+  alu/20
+]
+

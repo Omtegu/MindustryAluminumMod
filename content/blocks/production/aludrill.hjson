@@ -1,0 +1,21 @@
+type: Drill
+name: Aluminum Dril
+size: 2
+tier: 1
+drillTime: 600
+liquidBoostIntensity: 4
+liquidCapacity: 40
+itemCapacity: 40
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 1
+    optional: true
+    booster: true
+  }
+}
+category: production
+research:alu
+requirements: [
+ alu/12
+]

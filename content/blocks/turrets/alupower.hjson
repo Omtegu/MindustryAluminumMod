@@ -1,0 +1,31 @@
+type: PowerTurret
+name: AluPowered
+health: 300
+size: 1
+range: 160
+reload: 55
+recoil: 0
+recoilTime: 0
+itemCapacity:0
+inaccuracy: 0
+velocityRnd: 0.1
+shoot: {
+  type: ShootBarrel
+  shots: 3
+  shotDelay: 3
+}
+consumes: {
+    power: 10
+}
+shootType: {
+  type: LaserBulletType
+  length: 140
+  width: 24
+  damage: 80
+}
+category:turret
+research:alu-duo
+requirements: [
+  alu/250
+  gallium/20
+]

@@ -1,0 +1,7 @@
+hardness: 2
+name: Bauxite
+color: A52A2A
+research:viodrill
+shownPlanets: [
+    test
+]

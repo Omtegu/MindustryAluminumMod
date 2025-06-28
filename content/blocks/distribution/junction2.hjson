@@ -1,0 +1,7 @@
+type:Junction
+name:Junction
+category:distribution
+research:conveyor2
+requirements: [
+   alu/3
+]

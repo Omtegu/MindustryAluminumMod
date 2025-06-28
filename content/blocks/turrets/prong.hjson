@@ -1,0 +1,49 @@
+type: ItemTurret
+name: Pronged
+health: 600
+size: 2
+range: 240
+reload: 55
+recoil: 5
+itemCapacity: 25
+recoilTime: 30
+inaccuracy: 5
+velocityRnd: 0.2
+shoot: {
+  type: Shoot
+}
+ammoTypes: {
+  viocite: {
+    type: PointBulletType
+    collidesGround: true
+    targetsAir:false
+    damage: 30
+    splashDamage: 20
+    splashDamageRadius: 12
+    speed: 6
+    lifetime: 100
+    width: 7
+    height: 7
+    hitEffect: hitBulletBig
+  }
+  gallium: {
+    type: PointBulletType
+    collidesGround: true
+    targetsAir:false
+    damage: 60
+    splashDamage: 30
+    splashDamageRadius: 15
+    speed: 6
+    lifetime: 120
+    width: 12
+    height: 12
+    hitEffect: hitBulletBig
+  }
+}
+category:turret
+research:viocite
+requirements: [
+  alu/150
+  viocite/40
+  gallium/20
+]

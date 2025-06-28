@@ -1,0 +1,56 @@
+type: ItemTurret
+name: Aluduo
+health: 300
+size: 1
+range: 240
+reload: 15
+recoil: 0
+itemCapacity: 25
+recoilTime: 0
+inaccuracy: 1
+velocityRnd: 0.1
+shoot: {
+  type: ShootMulti
+  source: {
+    type: ShootAlternate
+    spread: 1
+    shots: 4
+  }
+  dest: [
+    {
+      shots: 1
+      shotDelay: 8
+    }
+  ]
+}
+ammoTypes: {
+  alu: {
+    type: BasicBulletType
+    collidesGround: true
+    damage: 15
+    splashDamage: 3
+    splashDamageRadius: 5
+    speed: 3
+    lifetime: 80
+    width: 7
+    height: 7
+    hitEffect: hitBulletSmall
+  }
+  thorium: {
+    type: BasicBulletType
+    collidesGround: true
+    damage: 50
+    splashDamage: 10
+    splashDamageRadius: 20
+    speed: 8
+    lifetime: 90
+    width: 12
+    height: 12
+    hitEffect: hitBulletSmall
+  }
+}
+category:turret
+research:alu
+requirements: [
+  alu/20
+]

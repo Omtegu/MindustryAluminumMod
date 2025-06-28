@@ -1,0 +1,20 @@
+type: CoreBlock
+name: Core: Aluminum
+requirements: [
+   alu/2000
+]
+health: 1650
+unitCapModifier: 12
+
+acceptsItems: true
+separateItemCapacity: true
+itemCapacity: 5000
+size: 3
+isFirstTier: true
+category: effect
+research: {
+    planet: test
+    root: true
+    requireUnlock:false
+    name: Apathi
+}

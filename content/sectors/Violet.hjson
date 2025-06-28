@@ -1,0 +1,15 @@
+localizedName: Violetta
+sector: 12
+planet: test
+captureWave: 30
+difficulty:1
+research: {
+requiresUnlock: false
+  parent: OmteguSector1
+  objectives: [
+    {
+      type: SectorComplete
+      preset: OmteguSector1
+    }
+  ]
+}

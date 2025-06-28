@@ -1,0 +1,10 @@
+localizedName: "Awareness"
+sector: 0
+planet: test
+captureWave: 10
+difficulty: 1
+  objectives: [
+    {
+      type: SectorComplete
+    }
+]

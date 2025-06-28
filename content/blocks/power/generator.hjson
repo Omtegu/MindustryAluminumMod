@@ -1,0 +1,15 @@
+type:ConsumeGenerator
+name: "Aluminum Combustor"
+hasPower: true
+hasItems: true
+itemDuration:60
+size:1
+category: power
+powerProduction: 2
+research:aludrill
+consumes: {
+    item: alu
+}
+requirements: [
+   alu/30
+]

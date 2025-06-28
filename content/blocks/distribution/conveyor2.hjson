@@ -1,0 +1,13 @@
+type: Conveyor
+name: "Aluminum Conveyor"
+size: 1
+speed:0.03
+junctionReplacement:junction2
+moveTime: 20
+interp: linear
+alwaysUnlocked:true
+research:alu
+category:distribution
+requirements: [
+   alu/1
+]

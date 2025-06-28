@@ -1,0 +1,37 @@
+type: GenericCrafter
+name: Bauxite Distillier
+description: Extracts the trace amounts of gallium from bauxite.
+size: 2
+consumes: {
+  items: [
+    bauxite/5
+  ]
+}
+outputLiquid: lgallium/3
+category: crafting
+research: bauxite
+requirements: [
+  bauxite/50
+  alu/50
+  viocite/30
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawParticles
+      color: eeffaa
+      alpha: 0.85
+      particleSize: 1.6
+      particles: 30
+      particleRad: 12
+      particleLife: 60
+    }
+  ]
+}
+ambientSound: hum
+ambientSoundVolume: 0.05
+itemCapacity: 50

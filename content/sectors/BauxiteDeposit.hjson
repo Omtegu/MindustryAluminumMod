@@ -1,0 +1,14 @@
+localizedName: Bauxite Deposits
+sector: 15
+planet: test
+captureWave: 30
+difficulty:1
+research: {
+  parent: OmteguSector1
+  objectives: [
+    {
+      type: SectorComplete
+      preset: Violet
+    }
+  ]
+}

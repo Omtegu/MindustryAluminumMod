@@ -1,0 +1,10 @@
+type: Conduit
+name: Viocite Conduit
+category: liquid
+research: lgallium
+requirements: [
+  viocite/1
+]
+health: 35
+leaks: false
+underBullets: true

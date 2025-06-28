@@ -1,0 +1,16 @@
+type:ConsumeGenerator
+name: "Viocite Generator"
+hasPower: true
+hasItems: true
+itemDuration:60
+size:1
+category: power
+powerProduction: 8
+research:viocite
+consumes: {
+    item: viocite
+}
+requirements: [
+   alu/30
+   viocite/50
+]

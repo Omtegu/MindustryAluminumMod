@@ -1,0 +1,47 @@
+type: ItemTurret
+name: Violent Crab
+health: 600
+size: 2
+range: 240
+reload: 55
+recoil: 5
+itemCapacity: 25
+recoilTime: 30
+inaccuracy: 2
+velocityRnd: 0.2
+shoot: {
+  type: ShootMulti
+  source: {
+    type: ShootAlternate
+    spread: 4
+    shots: 4
+  }
+  dest: [
+    {
+      shots: 3
+      shotDelay: 8
+    }
+  ]
+}
+ammoTypes: {
+  viocite: {
+    type: BasicBulletType
+    collidesGround: false
+    targetsAir:True
+    targetsGround:False
+    damage: 15
+    splashDamage: 3
+    splashDamageRadius: 5
+    speed: 3
+    lifetime: 100
+    width: 7
+    height: 7
+    hitEffect: hitBulletBig
+  }
+}
+category:turret
+research:viocite
+requirements: [
+  alu/50
+  viocite/20
+]
