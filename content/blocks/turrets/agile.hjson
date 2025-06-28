@@ -30,3 +30,4 @@ requirements: [
   gallium/50
   bauxite/100
 ]
+researchCostMultiplier: 0.5

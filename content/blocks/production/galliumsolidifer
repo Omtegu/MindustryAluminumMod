@@ -10,7 +10,7 @@ consumes: {
   lgallium/3
   ]
 }
-outputItem: gallium/1
+outputItem: gallium/2
 category: crafting
 research: lgallium
 requirements: [

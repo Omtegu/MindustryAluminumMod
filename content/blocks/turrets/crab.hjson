@@ -45,3 +45,4 @@ requirements: [
   alu/50
   viocite/20
 ]
+researchCostMultiplier: 0.5

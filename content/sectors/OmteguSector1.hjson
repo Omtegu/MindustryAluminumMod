@@ -2,6 +2,7 @@ localizedName: "Awareness"
 sector: 0
 planet: test
 captureWave: 10
+alwaysUnlocked:true
 difficulty: 1
   objectives: [
     {

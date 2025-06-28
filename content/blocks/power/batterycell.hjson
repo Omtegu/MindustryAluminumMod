@@ -1,0 +1,14 @@
+type: Battery
+name: Battery Cell
+health: 65
+size: 1
+consumes: {
+  powerBuffered: 2000
+}
+requirements: [
+  gallium/20
+  alu/10
+]
+category: power
+research: viogen
+researchCostMultiplier: 0.5
