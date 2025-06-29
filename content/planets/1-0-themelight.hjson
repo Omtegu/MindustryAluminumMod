@@ -5,6 +5,7 @@ localizedName: Themelight
 mesh: {
     # Mesh type. Self-explanatory.
     type: SunMesh
+
     # Noise property.
     divisions: 3
     # Noise property.
@@ -28,7 +29,7 @@ mesh: {
         ffe53b
     ]
 }
-
+      radius: 20
 # Whether this can be landed on.
 accessible: false
 # This is self-explanatory...
@@ -39,7 +40,7 @@ hasAtmosphere: false
 # your star and don't bother.
 bloom: true
 # Spacing between a parent (this) and satellites.
-orbitSpacing: 8
+orbitSpacing: 12
 # Attach a solar system to the star itself so it shows up in the UI.
 solarSystem: 1-0-themelight
 # The parent of the planet. Initiating a new solar system should work in v146,
@@ -49,9 +50,9 @@ solarSystem: 1-0-themelight
 parent: sun
 # Orbit radius of this planet. (Just to make it very far from the sun, I guess?)
 # Part 2 of the band-aid solution.
-orbitRadius: 100
+orbitRadius: 1200
 # Whether to draw this planet's orbit.
-drawOrbit: true
+drawOrbit: false
 # Whether this planet is tidally locked. No clue what this means, go check Wikipedia
 # or something.
 tidalLock: true
