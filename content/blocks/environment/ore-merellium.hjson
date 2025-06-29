@@ -1,0 +1,4 @@
+type: OreBlock
+name: "Merellium Ore"
+itemDrop: merellium
+
