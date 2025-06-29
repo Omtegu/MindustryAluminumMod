@@ -1,0 +1,7 @@
+hardness: 3
+name: Merellium
+color: 3cff49
+research:resonance
+shownPlanets: [
+    test
+]

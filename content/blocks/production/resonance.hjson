@@ -1,0 +1,33 @@
+type: Drill
+name: Resonance Drill
+desc: Uses resonance from Viocite crystals inside to achieve efficient mining through sound.
+size: 3
+tier: 3
+drillTime: 255
+liquidBoostIntensity: 4
+liquidCapacity: 40
+itemCapacity: 80
+consumes: {
+  liquid: {
+    liquid: lgallium
+    amount: 1
+    optional: true
+    booster: true
+  }
+}
+category: production
+research: {
+   parent: viodrill
+   objectives: [
+      viodrill,
+      {
+         type: OnSector
+         preset: GrassSight
+      }
+   ]
+}
+requirements: [
+ alu/150
+ viocite/50
+ gallium/100
+]

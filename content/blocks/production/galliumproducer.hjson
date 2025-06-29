@@ -8,7 +8,7 @@ consumes: {
   ]
   power: 3
 }
-outputLiquid: lgallium/0.1
+outputLiquid: lgallium/0.5
 category: crafting
 research: bauxite
 requirements: [
