@@ -1,14 +1,14 @@
-localizedName: Violetta
-sector: 12
+localizedName: Grass Sight
+sector: 16
 planet: test
 captureWave: 30
 difficulty:1
 research: {
-  parent: OmteguSector1
+  parent: Violetta
   objectives: [
     {
       type: SectorComplete
-      preset: OmteguSector1
+      preset: Violetta
     }
   ]
 }

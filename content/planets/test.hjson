@@ -9,7 +9,7 @@ mesh: {
   # A number used for mesh generation.
   seed: 69
   # Mesh "quality". More divisions = more hexagons.
-  divisions: 3
+  divisions: 5
   # First color to be used.
   color1: 22ffaa
   # Second color to be used.
@@ -103,7 +103,7 @@ atmosphereRadOut: 0.3
 # Whether this can be landed on.
 accessible: true
 # Toggle day-night cycle.
-updateLighting: true
+updateLighting: false
 # A number used for sector generation. If == -1, planet ID is picked instead.
 sectorSeed: 529
 # Whether this planet is blooming.
@@ -111,7 +111,7 @@ bloom: false
 # This is self-explanatory...
 visible: true
 # Also self-explanatory...
-atmosphereColor: aaaaaaaa
+atmosphereColor: 00bbff
 # The color of the planet's icon displayed in top-left dialog.
 iconColor: ffffff
 # Another self-explanatory field...
@@ -119,7 +119,7 @@ hasAtmosphere: true
 # Whether simulate waves when off-planet.
 allowWaveSimulation: true
 # Whether allow to land on procedurally generated sectors at all. False = only presets are available.
-allowLaunchToNumbered: false
+allowLaunchToNumbered: true
 # Whether sectors are reset when a player loses them.
 clearSectorOnLose: true
 # Whether waves are re-created when a sector is lost.
@@ -142,5 +142,5 @@ launchCandidates: []
 #]
 # Only items available in this planet. Recommended over hiddenItems.
 itemWhitelist: [
-  copper, lead, beryllium, graphite, titanium, alu, viocite, bauxite
+  alu, viocite, bauxite, gallium
 ]
