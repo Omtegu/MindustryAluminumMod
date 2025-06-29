@@ -8,7 +8,7 @@ liquidCapacity: 40
 itemCapacity: 40
 consumes: {
   liquid: {
-    liquid: water
+    liquid: lgallium
     amount: 1
     optional: true
     booster: true

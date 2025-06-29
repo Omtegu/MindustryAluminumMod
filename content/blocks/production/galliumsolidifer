@@ -4,10 +4,10 @@ description: Solidifies liquid gallium and aluminum to create a solid gallium.
 size: 2
 consumes: {
   items: [
-    alu/5
+    alu/1
   ]
   liquids: [
-  lgallium/3
+  lgallium/2
   ]
 }
 outputItem: gallium/2

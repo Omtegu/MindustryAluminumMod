@@ -1,6 +1,6 @@
 type: Drill
 name: Resonance Drill
-desc: Uses resonance from Viocite crystals inside to achieve efficient mining through sound.
+desc: Uses resonance from Viocite crystals inside to achieve efficient mining through sound without disrupting careful reactions in certain elements.
 size: 3
 tier: 3
 drillTime: 255
