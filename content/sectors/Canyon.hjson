@@ -1,8 +1,9 @@
-localizedName: Grass Sight
-sector: 16
+localizedName: "Merrelium Valley"
+sector: 11
 planet: test
-captureWave: 30
-difficulty:1
+captureWave: 10
+alwaysUnlocked:true
+difficulty: 3
 research: {
   parent: Violet
   objectives: [
