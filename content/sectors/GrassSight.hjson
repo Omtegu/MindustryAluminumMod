@@ -1,8 +1,8 @@
-localizedName: Grass Sight
+localizedName: Greensight
 sector: 16
 planet: test
 captureWave: 30
-difficulty:1
+difficulty:3
 research: {
   parent: Violet
   objectives: [

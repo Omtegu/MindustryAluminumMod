@@ -5,11 +5,11 @@ captureWave: 10
 alwaysUnlocked:true
 difficulty: 3
 research: {
-  parent: Violet
+  parent: BauxiteDeposit
   objectives: [
     {
       type: SectorComplete
-      preset: Violet
+      preset: BauxiteDeposit
     }
   ]
 }
