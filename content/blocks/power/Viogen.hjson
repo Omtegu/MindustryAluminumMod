@@ -1,5 +1,6 @@
 type:ConsumeGenerator
 name: "Viocite Generator"
+desc: Utilize scraps of radiation from Viocite to create power.
 hasPower: true
 hasItems: true
 itemDuration:60

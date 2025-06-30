@@ -1,5 +1,6 @@
 type: Battery
 name: Battery Cell
+desc: Store battery power for later usage
 health: 65
 size: 1
 consumes: {

@@ -1,22 +1,23 @@
 type: GenericCrafter
-name: Gallium Solidifer
-description: Solidifies liquid gallium and aluminum to create a solid gallium.
+name: Trateium Production Plant
+description: Creates Tratium from Gallium, water, and Viocite.
 size: 2
 consumes: {
   items: [
-    alu/5
+    gallium/1
+    viocite/3
   ]
   liquids: [
-  lgallium/0.4
+  water/0.6
   ]
-  power:1
+  power: 6
 }
-outputItem: gallium/1
+outputItem: trateium/1
 category: crafting
-research: lgallium
+research: merellium
 requirements: [
-  bauxite/50
-  alu/50
+  merellium/25
+  gallium/10
   viocite/30
 ]
 drawer: {
@@ -27,9 +28,9 @@ drawer: {
     }
     {
       type: DrawParticles
-      color: eeffaa
+      color: 0000ff
       alpha: 0.85
-      particleSize: 3
+      particleSize: 1.6
       particles: 30
       particleRad: 12
       particleLife: 60

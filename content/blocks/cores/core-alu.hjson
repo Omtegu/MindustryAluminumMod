@@ -1,5 +1,6 @@
 type: CoreBlock
 name: Core: Aluminum
+desc:First core you obtain on Alu/Apathi
 requirements: [
    alu/2000
 ]

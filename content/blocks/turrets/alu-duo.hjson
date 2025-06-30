@@ -1,5 +1,6 @@
 type: ItemTurret
 name: Bit
+desc: Bit is a helpful, weak turret.
 health: 300
 size: 1
 range: 240

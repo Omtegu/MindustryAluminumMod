@@ -1,5 +1,6 @@
 type: PowerNode
 name: Power Bridge
+desc:Bridge power between 2 close up points.
 size: 1
 laserRange: 5
 maxNodes: 5
