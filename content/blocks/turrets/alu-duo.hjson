@@ -3,7 +3,7 @@ name: Bit
 health: 300
 size: 1
 range: 240
-reload: 15
+reload: 30
 recoil: 0
 itemCapacity: 25
 recoilTime: 0
@@ -14,7 +14,7 @@ shoot: {
   source: {
     type: ShootAlternate
     spread: 1
-    shots: 4
+    shots: 1
   }
   dest: [
     {
@@ -36,7 +36,7 @@ ammoTypes: {
     height: 7
     hitEffect: hitBulletSmall
   }
-  thorium: {
+  gallium: {
     type: BasicBulletType
     collidesGround: true
     damage: 50

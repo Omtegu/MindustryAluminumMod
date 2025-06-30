@@ -7,7 +7,7 @@ consumes: {
     alu/5
   ]
   liquids: [
-  lgallium/3
+  lgallium/0.4
   ]
 }
 outputItem: gallium/1
