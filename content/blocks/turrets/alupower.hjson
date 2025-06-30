@@ -1,5 +1,5 @@
 type: PowerTurret
-name: AluPowered
+name: Apike
 health: 300
 size: 1
 range: 160
@@ -15,7 +15,7 @@ shoot: {
   shotDelay: 3
 }
 consumes: {
-    power: 10
+    power: 2
 }
 shootType: {
   type: LaserBulletType

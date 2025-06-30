@@ -15,7 +15,7 @@ shoot: {
   shotDelay: 3
 }
 consumes: {
-    power: 30
+    power: 5
 }
 shootType: {
   type: LaserBulletType
