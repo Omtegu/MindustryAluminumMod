@@ -1,8 +1,7 @@
-localizedName: "Merrelium Valley"
+localizedName: "Merlane"
 sector: 11
 planet: test
-captureWave: 10
-alwaysUnlocked:true
+captureWave: 30
 difficulty: 3
 research: {
   parent: BauxiteDeposit

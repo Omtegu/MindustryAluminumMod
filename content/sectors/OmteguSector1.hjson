@@ -3,6 +3,7 @@ sector: 0
 planet: test
 captureWave: 10
 alwaysUnlocked:true
+research: core-alu
 difficulty: 1
   objectives: [
     {
