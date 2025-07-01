@@ -1,0 +1,13 @@
+type: Router
+name: Router
+description: Outputs inputs in directions equally.
+size: 1
+speed: 6
+health: 110
+itemCapacity: 3
+requirements: [
+  alu/3
+]
+category: distribution
+research: conveyor2
+researchCostMultiplier: 0.5
