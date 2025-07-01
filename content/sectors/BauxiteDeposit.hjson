@@ -4,10 +4,10 @@ planet: test
 captureWave: 30
 difficulty:1
 research: {
-  parent: OmteguSector1
+  parent: Violet
   objectives: [
     {
-      type: SectorComplete
+      type: Violet
       preset: Violet
     }
   ]

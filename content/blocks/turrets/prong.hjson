@@ -41,7 +41,7 @@ ammoTypes: {
   }
 }
 category:turret
-research:viocite
+research:crab
 requirements: [
   alu/150
   viocite/40

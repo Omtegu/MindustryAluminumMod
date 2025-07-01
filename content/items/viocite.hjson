@@ -1,7 +1,7 @@
 hardness: 0
 name: Viocite
 color: A020F0
-research:aludrill
+research:alu
 shownPlanets: [
     test
 ]

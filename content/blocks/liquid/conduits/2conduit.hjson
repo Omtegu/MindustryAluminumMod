@@ -1,7 +1,7 @@
 type: Conduit
 name: Viocite Conduit
 category: liquid
-research: lgallium
+research: galliumproducer
 requirements: [
   viocite/1
 ]

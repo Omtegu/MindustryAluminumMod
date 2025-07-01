@@ -15,7 +15,7 @@ consumes: {
   }
 }
 category: production
-research:viocite
+research:aludrill
 requirements: [
  alu/24
  viocite/8

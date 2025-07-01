@@ -10,7 +10,7 @@ consumes: {
 }
 outputLiquid: lgallium/0.5
 category: crafting
-research: bauxite
+research: viodrill
 requirements: [
   bauxite/50
   alu/50

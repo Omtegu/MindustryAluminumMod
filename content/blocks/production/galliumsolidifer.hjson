@@ -13,7 +13,7 @@ consumes: {
 }
 outputItem: gallium/1
 category: crafting
-research: lgallium
+research: galliumproducer
 requirements: [
   bauxite/50
   alu/50

@@ -7,7 +7,7 @@ itemDuration:60
 size:1
 category: power
 powerProduction: 8
-research:viocite
+research:generator
 consumes: {
     item: viocite
 }

@@ -4,11 +4,11 @@ planet: test
 captureWave: 30
 difficulty: 3
 research: {
-  parent: BauxiteDeposit
+  parent: GrassSight
   objectives: [
     {
       type: SectorComplete
-      preset: BauxiteDeposit
+      preset: GrassSight
     }
   ]
 }
