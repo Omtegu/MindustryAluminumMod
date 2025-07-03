@@ -1,0 +1,7 @@
+hardness: 3
+name: Revilate
+color: FF5500
+research:trateium
+shownPlanets: [
+    test
+]

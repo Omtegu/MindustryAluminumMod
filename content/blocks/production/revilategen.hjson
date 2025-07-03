@@ -1,24 +1,24 @@
 type: GenericCrafter
-name: Trateium Production Plant
-description: Creates Tratium from Gallium, water, and Viocite.
+name: Revilate Crafter
+description: Creates revilate from Aluminum, Viocite, and water.
 size: 2
 consumes: {
   items: [
-    gallium/1
-    viocite/3
+    alu/5
+    viocite/2
   ]
   liquids: [
-  water/0.6
+  water/.2
   ]
-  power: 6
+  power:1
 }
-outputItem: trateium/1
+outputItem: revilate/1
 category: crafting
-research: galliumsolidifer
+research: trateiumgen
 requirements: [
-  merellium/25
-  gallium/10
-  viocite/30
+  viocite/20
+  alu/50
+  trateium/10
 ]
 drawer: {
   type: DrawMulti
@@ -28,9 +28,9 @@ drawer: {
     }
     {
       type: DrawParticles
-      color: 0000ff
+      color: eeffaa
       alpha: 0.85
-      particleSize: 1.6
+      particleSize: 3
       particles: 30
       particleRad: 12
       particleLife: 60
