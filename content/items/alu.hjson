@@ -1,6 +1,6 @@
 hardness: 0
 name:Aluminum
-color: ffffff
+color: fffffe
 research:core-alu
 shownPlanets: [
     test
